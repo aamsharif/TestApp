@@ -21,6 +21,7 @@ public class DatePickerFragment extends DialogFragment
     public DatePickerFragment(OnSetDateText dateTextSetter, Calendar calendar){
         mDateTextSetter = dateTextSetter;
         mCalender = calendar;
+        // test line
     }
 
     @Override
